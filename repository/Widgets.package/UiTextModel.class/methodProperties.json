@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bindings" : "mt 8/12/2013 11:28:38.692",
+		"contextChanged" : "mt 1/31/2013 14:31:29.128",
+		"doItContext" : "mt 11/1/2012 17:01:26.82",
+		"doItContext:" : "mt 1/31/2013 14:51:06.858",
+		"doItReceiver" : "mt 11/1/2012 17:01:35.033",
+		"doItReceiver:" : "mt 1/31/2013 14:51:05.337",
+		"receiverChanged" : "mt 1/31/2013 14:31:37.958",
+		"selectedClass" : "mt 11/1/2012 17:06:08.181" } }

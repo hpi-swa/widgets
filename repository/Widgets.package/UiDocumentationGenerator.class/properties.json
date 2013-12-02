@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Documentation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiDocumentationGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

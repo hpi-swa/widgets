@@ -1,0 +1,4 @@
+accessing - private
+initialValue
+
+	^ initialValue

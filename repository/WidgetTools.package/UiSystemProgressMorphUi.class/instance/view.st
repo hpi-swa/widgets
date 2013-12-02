@@ -1,0 +1,5 @@
+accessing
+view
+	"nil"
+	
+	^ view

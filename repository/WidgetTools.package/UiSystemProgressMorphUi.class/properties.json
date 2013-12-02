@@ -1,0 +1,17 @@
+{
+	"category" : "WidgetTools-SystemProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"view",
+		"unnamedMorph1",
+		"unnamedMorph2",
+		"closeBtn" ],
+	"name" : "UiSystemProgressMorphUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

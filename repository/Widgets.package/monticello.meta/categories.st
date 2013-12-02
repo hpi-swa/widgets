@@ -1,0 +1,11 @@
+SystemOrganization addCategory: #'Widgets-Text'!
+SystemOrganization addCategory: #'Widgets-Core'!
+SystemOrganization addCategory: #'Widgets-Support'!
+SystemOrganization addCategory: #'Widgets-Views'!
+SystemOrganization addCategory: #'Widgets-Views-Support'!
+SystemOrganization addCategory: #'Widgets-Views-Examples'!
+SystemOrganization addCategory: #'Widgets-Events'!
+SystemOrganization addCategory: #'Widgets-Documentation'!
+SystemOrganization addCategory: #'Widgets-Painter'!
+SystemOrganization addCategory: #'Widgets-Layouts'!
+SystemOrganization addCategory: #'Widgets-Platforms'!

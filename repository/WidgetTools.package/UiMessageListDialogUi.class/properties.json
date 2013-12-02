@@ -1,0 +1,19 @@
+{
+	"category" : "WidgetTools-MessageListDialog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messageList",
+		"unnamedMorph1",
+		"unnamedMorph2",
+		"okButton",
+		"cancelButton",
+		"unnamedMorph3" ],
+	"name" : "UiMessageListDialogUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

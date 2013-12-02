@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"close:" : "mt 2/17/2011 21:08:21.353",
+		"instance" : "mt 2/9/2011 15:50:26.612",
+		"label:min:max:" : "mt 2/9/2011 10:39:22.33",
+		"reset" : "mt 2/9/2011 15:51:12.037" },
+	"instance" : {
+		"assureCurrentNode" : "mt 2/20/2011 20:50:21.596",
+		"assureOpenView" : "mt 2/25/2011 10:29:29.939",
+		"closeCurrentNode" : "mt 2/20/2011 19:02:31.653",
+		"columnCountFor:" : "mt 2/9/2011 09:56:25.392",
+		"currentId" : "mt 2/17/2011 20:40:58.762",
+		"currentIndex" : "mt 2/17/2011 23:59:24.152",
+		"currentNode" : "mt 2/17/2011 20:37:23.872",
+		"indexRow:column:parent:" : "mt 2/17/2011 19:54:04.249",
+		"initialize" : "mt 2/20/2011 18:13:16.938",
+		"label:min:max:" : "mt 2/20/2011 20:32:19.134",
+		"labelAt:put:" : "mt 2/20/2011 20:31:55.227",
+		"mutex" : "mt 2/17/2011 20:36:24.82",
+		"nodeClosed:" : "mt 2/20/2011 19:01:34.313",
+		"openCurrentNode:" : "mt 2/17/2011 21:44:13.124",
+		"reset" : "mt 2/20/2011 19:44:13.289",
+		"rootNode" : "mt 2/17/2011 19:37:57.87",
+		"rowCountFor:" : "mt 2/9/2011 16:01:22.088",
+		"textFor:" : "mt 2/20/2011 21:24:06.782" } }

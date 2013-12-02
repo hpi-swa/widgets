@@ -1,0 +1,4 @@
+testing
+isInCallbackMode
+
+	^ deferredMessages notNil

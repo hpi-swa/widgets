@@ -1,0 +1,15 @@
+{
+	"category" : "WidgetTools-WorldToolbar",
+	"classinstvars" : [
+		"addedDefinitions" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backgroundColor",
+		"vb" ],
+	"name" : "UiWorldToolbar",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

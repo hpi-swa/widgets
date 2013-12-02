@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-SystemSearch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"finder" ],
+	"name" : "UiSystemSearch",
+	"pools" : [
+		 ],
+	"super" : "UiWindow",
+	"type" : "normal" }

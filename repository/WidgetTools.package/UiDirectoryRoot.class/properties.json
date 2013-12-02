@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 1/23/2012 10:26:35.612",
+	"instvars" : [
+		 ],
+	"name" : "UiDirectoryRoot",
+	"pools" : [
+		 ],
+	"super" : "UiDirectoryEntry",
+	"type" : "normal" }

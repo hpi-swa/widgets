@@ -1,0 +1,4 @@
+testing
+isSignalNode
+
+	^ false

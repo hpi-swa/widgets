@@ -1,0 +1,4 @@
+testing
+isInStackMode
+
+	^ deferredMessages isNil

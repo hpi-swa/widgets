@@ -1,0 +1,1 @@
+More complex model to navigate the Smalltalk system structure. See class-side examples.

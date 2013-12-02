@@ -1,0 +1,20 @@
+{
+	"category" : "WidgetTools-SystemProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"children",
+		"text",
+		"minimum",
+		"maximum",
+		"id",
+		"current" ],
+	"name" : "UiSystemProgressNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

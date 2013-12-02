@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"histogram" : "mt 8/14/2013 09:45:24.482",
+		"histogramWithCallbacks" : "mt 8/14/2013 08:06:55.501",
+		"histogramWithHourGlass" : "mt 8/14/2013 08:07:31.817",
+		"histogramWithSpecialCollection" : "mt 8/14/2013 08:05:28.6",
+		"histogramWithSystemProgress" : "mt 8/14/2013 09:44:29.075",
+		"objectCounts" : "mt 8/14/2013 12:01:12.054",
+		"objectCountsWithCallbacks" : "mt 8/14/2013 13:16:12.547",
+		"objectCountsWithHourGlass" : "mt 8/14/2013 11:59:31.788" },
+	"instance" : {
+		"collect:" : "mt 8/14/2013 08:03:28.756",
+		"do:" : "mt 8/14/2013 08:02:46.948",
+		"recursiveDo:" : "mt 8/12/2013 18:39:29.195",
+		"stepDone:" : "mt 8/11/2013 14:51:51.373" } }

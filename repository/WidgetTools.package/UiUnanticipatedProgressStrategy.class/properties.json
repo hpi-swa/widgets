@@ -1,0 +1,17 @@
+{
+	"category" : "WidgetTools-UnanticipatedProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentValue",
+		"maxValue",
+		"startValue",
+		"label" ],
+	"name" : "UiUnanticipatedProgressStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

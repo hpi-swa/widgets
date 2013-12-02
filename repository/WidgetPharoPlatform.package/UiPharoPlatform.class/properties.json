@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetPharoPlatform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiPharoPlatform",
+	"pools" : [
+		 ],
+	"super" : "UiPlatform",
+	"type" : "normal" }

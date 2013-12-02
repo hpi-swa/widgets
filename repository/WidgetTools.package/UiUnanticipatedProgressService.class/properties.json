@@ -1,0 +1,21 @@
+{
+	"category" : "WidgetTools-UnanticipatedProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default",
+		"Timer" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"entries",
+		"bar",
+		"lastExtent",
+		"lastWindowBounds",
+		"isWindowHighlighted",
+		"strategies",
+		"deferredMessages" ],
+	"name" : "UiUnanticipatedProgressService",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

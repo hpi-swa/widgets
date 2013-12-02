@@ -1,0 +1,5 @@
+accessing
+messageList
+	"nil"
+	
+	^ messageList

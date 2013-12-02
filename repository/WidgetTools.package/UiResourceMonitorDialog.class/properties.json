@@ -1,0 +1,18 @@
+{
+	"category" : "WidgetTools-ResourceMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"view",
+		"refreshButton",
+		"gcButton",
+		"modeChk",
+		"benchBtn" ],
+	"name" : "UiResourceMonitorDialog",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

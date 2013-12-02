@@ -1,0 +1,17 @@
+{
+	"category" : "WidgetTools-ResourceMonitor",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"results",
+		"children" ],
+	"name" : "UiBenchmarkModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

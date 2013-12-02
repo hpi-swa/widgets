@@ -1,0 +1,4 @@
+accessing
+knownNamesForIndex
+
+	^ #(index i)

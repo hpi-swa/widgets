@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-Sandbox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiImageFilters",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

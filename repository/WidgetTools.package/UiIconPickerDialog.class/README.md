@@ -1,0 +1,1 @@
+A useful dialog to help a developer to choose the right icon.

@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-MessageListDialog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/30/2010 18:36:14.08",
+	"instvars" : [
+		"result" ],
+	"name" : "UiMessageListDialog",
+	"pools" : [
+		 ],
+	"super" : "UiWindow",
+	"type" : "normal" }

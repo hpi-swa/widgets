@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Documentation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"out",
+		"mode" ],
+	"name" : "UiDocTracWikiExporter",
+	"pools" : [
+		 ],
+	"super" : "UiDocVisitor",
+	"type" : "normal" }

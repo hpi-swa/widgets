@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"open" : "mt 10/24/2010 12:30:21.819" },
+	"instance" : {
+		"initialize" : "mt 7/18/2012 16:38",
+		"initializeUi" : "mt 7/18/2012 16:38",
+		"initializeViewWithBenchmarks" : "mt 5/2/2012 13:59:19.261",
+		"initializeViewWithMonitor" : "mt 1/26/2012 11:00:39.805",
+		"open" : "mt 10/24/2010 12:29:56.994",
+		"refresh" : "mt 1/26/2012 10:40:58.817",
+		"showBenchmarks:" : "mt 1/26/2012 10:40:47.095" } }

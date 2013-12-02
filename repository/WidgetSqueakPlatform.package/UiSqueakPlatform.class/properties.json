@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetSqueakPlatform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiSqueakPlatform",
+	"pools" : [
+		 ],
+	"super" : "UiPlatform",
+	"type" : "normal" }

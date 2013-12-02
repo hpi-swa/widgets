@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-SystemProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiSystemProgressTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

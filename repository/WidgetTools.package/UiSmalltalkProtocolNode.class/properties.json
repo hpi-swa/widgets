@@ -1,0 +1,15 @@
+{
+	"category" : "WidgetTools-SystemSearch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"protocol",
+		"organization" ],
+	"name" : "UiSmalltalkProtocolNode",
+	"pools" : [
+		 ],
+	"super" : "UiSmalltalkModel",
+	"type" : "normal" }

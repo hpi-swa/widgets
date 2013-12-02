@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"initialize" : "mt 7/8/2013 15:53:36.775" },
+	"instance" : {
+		"canvas:fillRoundRect:radius:fillStyle:" : "mt 7/8/2013 16:59:57.59",
+		"canvas:frameAndFillRoundRect:radius:fillStyle:borderWidth:borderColor:" : "mt 7/8/2013 17:02:50.549",
+		"canvas:frameRoundRect:radius:width:color:" : "mt 7/8/2013 16:58:28.782",
+		"dragThreshold" : "mt 7/8/2013 16:24:24.507",
+		"keyboardEvent:setCharCodeFor:" : "mt 7/9/2013 10:27:00.106",
+		"runArray:add:withOccurrences:" : "mt 7/8/2013 16:10:12.88",
+		"standardButtonFont" : "mt 7/8/2013 16:42",
+		"standardCodeFont" : "mt 7/8/2013 16:42",
+		"standardDefaultTextFont" : "mt 7/8/2013 16:42",
+		"standardListFont" : "mt 7/8/2013 16:42",
+		"string:includesSubstring:" : "mt 7/9/2013 09:50:06.242",
+		"textEditorPointBlock:" : "mt 7/9/2013 10:37:26.662",
+		"textPrintHtmlString:" : "mt 7/9/2013 10:58:38.116" } }

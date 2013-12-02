@@ -1,0 +1,18 @@
+{
+	"category" : "WidgetTools-SystemProgress",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "mt 5/15/2012 10:51:02.91",
+	"instvars" : [
+		"rootNode",
+		"currentNode",
+		"mutex" ],
+	"name" : "UiSystemProgressModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

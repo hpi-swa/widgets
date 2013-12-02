@@ -1,0 +1,1 @@
+This is the root of all directories where #entry is of type FileDirectory and no DirectoryEntry.

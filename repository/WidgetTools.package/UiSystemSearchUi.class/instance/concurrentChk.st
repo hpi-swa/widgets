@@ -1,0 +1,5 @@
+accessing
+concurrentChk
+	"nil"
+	
+	^ concurrentChk

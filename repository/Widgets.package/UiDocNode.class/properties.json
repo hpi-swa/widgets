@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Documentation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nodes",
+		"parent" ],
+	"name" : "UiDocNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

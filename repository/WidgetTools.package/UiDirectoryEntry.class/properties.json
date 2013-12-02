@@ -1,0 +1,18 @@
+{
+	"category" : "WidgetTools-Examples",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 1/23/2012 10:23:17.687",
+	"instvars" : [
+		"entry",
+		"files",
+		"folders" ],
+	"name" : "UiDirectoryEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

@@ -1,0 +1,23 @@
+{
+	"category" : "WidgetTools-UnanticipatedProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"startTime",
+		"currentValue",
+		"maxValue",
+		"initialValue",
+		"label",
+		"onceShown",
+		"numUpdates",
+		"startValue",
+		"bounds" ],
+	"name" : "UiUnanticipatedProgressTask",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

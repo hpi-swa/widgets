@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addResult:" : "mt 1/27/2013 19:41:51.54",
+		"checkBlock" : "mt 2/6/2012 17:59:33.758",
+		"findNext" : "mt 2/7/2012 17:14:49.661",
+		"findNextAsynchronous" : "mt 2/8/2012 10:58:36.017",
+		"findNextSynchronous" : "mt 2/7/2012 17:27:09.371",
+		"findPrev" : "mt 2/7/2012 17:15:12.605",
+		"findPrevAsynchronous" : "mt 2/8/2012 10:58:42.99",
+		"findPrevSynchronous" : "mt 2/7/2012 17:26:52.881",
+		"finder" : "mt 2/6/2012 16:49:09.507",
+		"finder:" : "mt 2/6/2012 16:49:39.333",
+		"initialize" : "mt 5/2/2012 10:31:57.59",
+		"initializeView" : "mt 2/7/2012 16:01:09.529",
+		"log:" : "mt 2/7/2012 17:21:28.795",
+		"selectCachedResult:" : "mt 2/8/2012 10:52:01.257",
+		"selectResult:" : "mt 2/7/2012 17:26:39.203",
+		"setRoot:" : "mt 2/7/2012 16:39:30.204",
+		"title" : "mt 2/6/2012 16:43:02.915",
+		"uiClass" : "mt 2/6/2012 16:42:37.374",
+		"updateSearchButtons" : "mt 2/7/2012 16:23:49.269" } }

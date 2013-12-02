@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"open" : "mt 10/14/2010 20:34:30.931" },
+	"instance" : {
+		"changeIconSet:" : "mt 8/21/2012 10:43:52.829",
+		"changeSearch:" : "mt 5/2/2012 14:03:52.685",
+		"chooseIcon:" : "mt 10/14/2010 20:47:24.871",
+		"chooseIconAndClose:" : "mt 10/21/2010 22:11:41.636",
+		"chooseIconCodeAndClose:" : "mt 10/22/2010 11:24:25.666",
+		"drawOn:" : "mt 10/22/2010 11:14:30.318",
+		"drawShadowOn:" : "mt 10/22/2010 11:14:03.92",
+		"initialize" : "mt 8/21/2012 10:43:39.517",
+		"initializeIconSets" : "mt 8/21/2012 10:43:08.655",
+		"open" : "mt 8/21/2012 10:45:14.525",
+		"outerBounds" : "mt 10/22/2010 11:15:55.661",
+		"pickCodeForIcon" : "mt 10/22/2010 11:23:55.331",
+		"pickIcon" : "mt 10/21/2010 22:09:52.839" } }

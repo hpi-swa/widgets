@@ -1,0 +1,15 @@
+{
+	"category" : "WidgetTools-SystemSearch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"category",
+		"prefix" ],
+	"name" : "UiSmalltalkCategoryNode",
+	"pools" : [
+		 ],
+	"super" : "UiSmalltalkModel",
+	"type" : "normal" }

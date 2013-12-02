@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-ResourceMonitor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiResourceMonitorNode",
+	"pools" : [
+		 ],
+	"super" : "UiPropertyItemNode",
+	"type" : "normal" }

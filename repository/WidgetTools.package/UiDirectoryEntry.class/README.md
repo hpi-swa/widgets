@@ -1,0 +1,1 @@
+This is an adaptor for displaying the directory structure in an item view.

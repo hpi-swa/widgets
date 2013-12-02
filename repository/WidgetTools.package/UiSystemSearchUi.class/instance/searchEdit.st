@@ -1,0 +1,5 @@
+accessing
+searchEdit
+	"nil"
+	
+	^ searchEdit

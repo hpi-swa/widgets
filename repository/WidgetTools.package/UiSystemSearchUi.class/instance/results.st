@@ -1,0 +1,5 @@
+accessing
+results
+	"nil"
+	
+	^ results

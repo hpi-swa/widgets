@@ -1,0 +1,16 @@
+{
+	"category" : "WidgetTools-SystemSearch",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/19/2010 11:04:26.59",
+	"instvars" : [
+		 ],
+	"name" : "UiSmalltalkModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

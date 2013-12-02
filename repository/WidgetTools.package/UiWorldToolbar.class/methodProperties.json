@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"addButtons:" : "sp 9/22/2013 16:48:36.612",
+		"addedDefinitions" : "sp 9/22/2013 16:44:06.664",
+		"open" : "sp 9/22/2013 17:27:35.789" },
+	"instance" : {
+		"definitions" : "sp 9/22/2013 17:15:08.101",
+		"gradient" : "mt 12/16/2011 11:58:38.916",
+		"gradient:" : "mt 12/16/2011 12:01:21.416",
+		"initialize" : "mt 12/23/2011 11:03:18.287",
+		"keyStroke:" : "mt 12/19/2011 15:25:01.062",
+		"quitSession" : "mt 12/14/2010 11:42:58.901",
+		"separator" : "mt 12/16/2011 12:01:34.04",
+		"startMessageTally" : "mt 12/14/2010 11:37:28.37",
+		"updateButtons" : "sp 9/22/2013 17:34:13.615",
+		"updateColor" : "mt 12/14/2010 13:31:12.683" } }

@@ -1,0 +1,1 @@
+I can show a list of short messages to be confirmed or rejected.

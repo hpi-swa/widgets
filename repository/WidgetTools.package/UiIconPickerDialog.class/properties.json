@@ -1,0 +1,19 @@
+{
+	"category" : "WidgetTools-IconPicker",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/19/2010 11:08:01.295",
+	"instvars" : [
+		"iconSetCombo",
+		"iconView",
+		"infoLabel",
+		"icon",
+		"searchInput",
+		"iconSets" ],
+	"name" : "UiIconPickerDialog",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

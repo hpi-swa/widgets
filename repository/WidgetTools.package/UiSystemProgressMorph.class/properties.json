@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-SystemProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 8/21/2012 11:05:17.119",
+	"instvars" : [
+		"ui" ],
+	"name" : "UiSystemProgressMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

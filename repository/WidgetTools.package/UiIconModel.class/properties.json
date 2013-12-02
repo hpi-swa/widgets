@@ -1,0 +1,18 @@
+{
+	"category" : "WidgetTools-IconPicker",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/14/2010 19:53:08.979",
+	"instvars" : [
+		"iconSet",
+		"showText",
+		"nameFilter" ],
+	"name" : "UiIconModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

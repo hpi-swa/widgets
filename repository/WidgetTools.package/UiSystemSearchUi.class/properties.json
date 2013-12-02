@@ -1,0 +1,23 @@
+{
+	"category" : "WidgetTools-SystemSearch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"unnamedMorph1",
+		"results",
+		"view",
+		"unnamedMorph2",
+		"searchEdit",
+		"prevBtn",
+		"nextBtn",
+		"concurrentChk",
+		"unnamedMorph3",
+		"statusLbl" ],
+	"name" : "UiSystemSearchUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

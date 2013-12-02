@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-UnanticipatedProgress",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiUnanticipatedProgressStrategyForDoIts",
+	"pools" : [
+		 ],
+	"super" : "UiUnanticipatedProgressStrategy",
+	"type" : "normal" }

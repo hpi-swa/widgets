@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mt 2/17/2011 20:43:19.345",
+		"tearDown" : "mt 2/17/2011 20:43:22.888",
+		"test01rootNodeInitialization" : "mt 8/21/2012 11:17:01.068",
+		"test02morphInitialization" : "mt 8/21/2012 11:16:58.056" } }

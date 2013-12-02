@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfWidgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfWidgets",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
