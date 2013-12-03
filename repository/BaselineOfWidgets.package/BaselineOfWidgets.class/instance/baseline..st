@@ -31,12 +31,13 @@ baseline: spec
 			group: 'core' with: #('Widgets');
 			group: 'tools' with: #('WidgetTools');
 			group: 'tests' with: #('WidgetTests');
-			group: 'full' with: #('tools' 'tests')].
+			group: 'full' with: #('tools' 'tests');
+			group: 'TravisCI' with: #('WidgetTests')].
 		
 	spec for: #squeak do: [
 		spec
 			package: 'WidgetSqueakPlatform' with: [
-				spec requires: #('Widgets')];
+				spec requires: #('Widgets')];	
 			package: 'Widgets' with: [
 				spec includes: #('WidgetSqueakPlatform')]].
 	spec for: #pharo do: [
