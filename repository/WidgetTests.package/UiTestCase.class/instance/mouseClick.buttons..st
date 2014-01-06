@@ -3,4 +3,4 @@ mouseClick: aMorph buttons: someMouseButtons
 
 	self
 		mousePress: aMorph buttons: someMouseButtons;
-		mouseRelease: aMorph buttons: #().
+		mouseRelease: aMorph buttons: someMouseButtons.

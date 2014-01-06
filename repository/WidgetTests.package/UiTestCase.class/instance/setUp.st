@@ -3,7 +3,7 @@ setUp
 
 	super setUp.
 
-	sut := self subjectClass new.
+	self subjectClass ifNotNil: [:cls | sut := cls new].
 	spy := SignalSpy new.
 	hand := UiTestHandMorph new owner: sut.
 	time := 0.
