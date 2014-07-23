@@ -1,9 +1,10 @@
+SystemOrganization addCategory: #'WidgetTools-Documentation'!
+SystemOrganization addCategory: #'WidgetTools-Examples'!
 SystemOrganization addCategory: #'WidgetTools-IconPicker'!
-SystemOrganization addCategory: #'WidgetTools-ResourceMonitor'!
-SystemOrganization addCategory: #'WidgetTools-WorldToolbar'!
 SystemOrganization addCategory: #'WidgetTools-MessageListDialog'!
+SystemOrganization addCategory: #'WidgetTools-ResourceMonitor'!
+SystemOrganization addCategory: #'WidgetTools-Sandbox'!
 SystemOrganization addCategory: #'WidgetTools-SystemProgress'!
 SystemOrganization addCategory: #'WidgetTools-SystemSearch'!
-SystemOrganization addCategory: #'WidgetTools-Examples'!
 SystemOrganization addCategory: #'WidgetTools-UnanticipatedProgress'!
-SystemOrganization addCategory: #'WidgetTools-Sandbox'!
+SystemOrganization addCategory: #'WidgetTools-WorldToolbar'!

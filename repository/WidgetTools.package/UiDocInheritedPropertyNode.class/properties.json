@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-Documentation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"widgetName" ],
+	"name" : "UiDocInheritedPropertyNode",
+	"pools" : [
+		 ],
+	"super" : "UiDocPropertyNode",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTools-Documentation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiDocVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
