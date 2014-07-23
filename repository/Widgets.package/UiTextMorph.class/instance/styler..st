@@ -4,6 +4,8 @@ styler: aTextStyler
 	styler := aTextStyler.
 	
 	"Setup target for callback functinos."
-	styler ifNotNil: [styler
+	styler ifNotNil: [
+		styler
 			view: self;
-			font: textStyle defaultFont].
+			font: textStyle defaultFont;
+			workspace: (self editView ifNotNil: [:view | view model])].

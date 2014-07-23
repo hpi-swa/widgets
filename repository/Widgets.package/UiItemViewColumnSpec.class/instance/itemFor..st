@@ -13,9 +13,7 @@ itemFor: aNode
 	self textConverter ifNotNil: [:c | text := c value: text].
 	self balloonTextConverter ifNotNil: [:c | balloonText := c value: balloonText].
 	self colorConverter ifNotNil: [:c | itemColor := c value: itemColor].
-	
-	"Workaround for item layouting if item is empty."
-	(text isNil and: [icon isNil]) ifTrue: [text := ' ' asText].
+	self morphConverter ifNotNil: [:c | morph := c value: morph].
 	
 	item := Morph new color: (itemColor ifNil: [Color transparent]).
 	
@@ -26,6 +24,11 @@ itemFor: aNode
 		self connect: checkbox signal: #toggled: to: aNode selector: (self checkedSelector, #:) asSymbol.
 		self connect: checkbox signal: #toggled: to: checkbox selector: #visible:.
 		item addMorphBack: checkbox].
+	
+	"Workaround for item layouting if item is empty."
+	((text isNil
+		and: [icon isNil])
+		and: [checkbox isNil]) ifTrue: [text := ' ' asText].
 	
 	icon ifNotNil: [item addMorphBack: icon asMorph].
 	morph ifNotNil: [item addMorphBack: morph].

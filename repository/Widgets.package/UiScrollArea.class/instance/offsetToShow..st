@@ -23,7 +23,4 @@ offsetToShow: aRectangle
 		ifTrue: [offset := (
 			(aRectangle left - self transformMorph width + aRectangle width min: self widget width - self transformMorph width)) @ offset y].
 
-	self isHorizontalScrollBarVisible ifFalse: [offset := 0 @ offset y].
-	self isVerticalScrollBarVisible ifFalse: [offset := offset x @ 0].
-
-	^ offset
+	^ self offsetTruncated: offset

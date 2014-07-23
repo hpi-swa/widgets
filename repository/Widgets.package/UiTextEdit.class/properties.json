@@ -11,7 +11,8 @@
 		"scrollingMode",
 		"scrollingLimit",
 		"colors",
-		"displayMode" ],
+		"displayMode",
+		"anchoredSelection" ],
 	"name" : "UiTextEdit",
 	"pools" : [
 		 ],

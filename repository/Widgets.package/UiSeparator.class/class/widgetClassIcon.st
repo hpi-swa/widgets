@@ -1,4 +1,4 @@
 *widgets-designer
 widgetClassIcon
 
-	^UiFugueIcons borderDashIcon
+	^ (Smalltalk at: #UiFugueIcons ifAbsent: [^ nil]) borderDashIcon

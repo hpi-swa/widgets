@@ -13,7 +13,7 @@ doLayoutFor: aMorph
 					ifTrue: [aMorph height: aMorph submorphs last height]
 					ifFalse: [aMorph height: fontHeight]]
 			ifFalse: [
-				aMorph height: aMorph submorphs last height].
+				aMorph height: aMorph submorphs last fullBounds height].
 				
 		"Manual layouting."
 		offset := (aMorph left + 3) @ 1.

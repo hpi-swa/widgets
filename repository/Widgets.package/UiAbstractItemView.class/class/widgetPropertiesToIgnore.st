@@ -1,4 +1,4 @@
 properties
 widgetPropertiesToIgnore
 
-	^ #('TableLayout' 'ProportionalLayout' widgetResizable)
+	^ super widgetPropertiesToIgnore, #(widgetResizable)

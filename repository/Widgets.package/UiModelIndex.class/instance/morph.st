@@ -1,4 +1,4 @@
-as yet unclassified
+data
 morph
 
 	^ self spec morphFor: self node

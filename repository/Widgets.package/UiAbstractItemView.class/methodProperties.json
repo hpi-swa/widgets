@@ -3,7 +3,7 @@
 		"isWidgetClass" : "mt 3/7/2011 14:34:32.325",
 		"widgetCategory" : "mt 10/19/2010 13:33:18.144",
 		"widgetProperties" : "mt 12/17/2012 15:17:59.77",
-		"widgetPropertiesToIgnore" : "mt 4/6/2011 14:08:30.911" },
+		"widgetPropertiesToIgnore" : "mt 2/6/2014 16:22:55.865" },
 	"instance" : {
 		"activated:" : "mt 2/2/2012 10:37:43.479",
 		"addColumn:" : "mt 1/23/2012 13:52:18.38",
@@ -138,6 +138,7 @@
 		"viewport" : "mt 3/7/2011 11:50:41.566",
 		"viewportBounds" : "mt 3/25/2011 10:17:15.12",
 		"viewportClass" : "mt 10/14/2010 12:08:54.27",
+		"visibleBoundsForHoveredCell" : "mt 2/19/2014 16:50:47.45",
 		"visibleIndicesIn:" : "mt 2/16/2012 17:00:17.665",
 		"visibleItemsIn:" : "mt 2/16/2012 17:00:24.076",
 		"visibleNodes" : "mt 2/8/2013 11:21:08.775" } }

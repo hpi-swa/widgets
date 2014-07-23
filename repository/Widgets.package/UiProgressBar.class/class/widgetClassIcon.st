@@ -1,4 +1,4 @@
 accessing
 widgetClassIcon
 
-	^ UiFugueIcons uiProgressBarIcon
+	^ (Smalltalk at: #UiFugueIcons ifAbsent: [^ nil]) uiProgressBarIcon
