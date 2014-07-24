@@ -1,9 +1,9 @@
 as yet unclassified
 allNodesInto: result
 
-	result
-		add: self
-		ifPresent: [^ result "avoid cycles"].
+	(result includes: self)
+		ifFalse: [result add: self]
+		ifTrue: [^ result "avoid cycles"].
 	
 	self children collect: [:nodes |
 		nodes do: [:node |
