@@ -16,7 +16,14 @@ keyStroke: aKeyboardEvent
 		(aKeyboardEvent commandKeyPressed and: [aKeyboardEvent keyCharacter = $c])
 			ifTrue: [super keyStroke: aKeyboardEvent].
 		^ self].
-		
+	
+	"Skip processing if view knows this shortcut."
+	self flag: #fishy. "mt: Do we skip important handlers?"
+	self editView eventHandler ifNotNil: [:eh |
+		(eh canHandleShortcut: aKeyboardEvent) ifTrue: [
+			self editView keyStroke: aKeyboardEvent.
+			^ self]].
+	
 	super keyStroke: aKeyboardEvent.
 	textEdited := self text ~= old.
 	
@@ -41,4 +48,4 @@ keyStroke: aKeyboardEvent
 	textEdited ifTrue: [self style].
 	
 	"Allow view to handle shortcuts too."
-	self editView keyStroke: aKeyboardEvent.
+	"self editView keyStroke: aKeyboardEvent."
