@@ -7,4 +7,4 @@ sliderChange: aSliderChange
 		ifTrue: [self updateSupportMorphs].
 	
 	(#(rangeChange valueChange) includes: aSliderChange)
-		ifTrue: [self updateSliderButton].
+		ifTrue: [self noLayoutChangeDuring: [self updateSliderButton]].
