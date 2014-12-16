@@ -15,16 +15,8 @@ initDraggedMorphFor: someObjects
 		ifTrue: [someObjects first: 5].
 	hidden := someObjects size - 5 max: 0.
 	
-	draggedMorph addAllMorphs: (objects collect: [:object | | item |
-		item := UiItemViewMorph new
-			font: UiPlatform current standardListFont;
-			labelColor: Color black;
-			color: ((Color gray: 0.85) "alpha: 0.75");
-			label: (self labelFor: object);
-			form: (self iconFor: object).
-		UiItemViewSimpleColumnSpec new doLayoutFor: item.
-		item height: item height + 1. "nasty fonts.."
-		item]).
+	draggedMorph addAllMorphs: (objects collect: [:object | 
+		self createDraggedSubmorphFor: object]).
 
 	draggedMorph submorphBounds width + 5 in: [:maxWidth |
 		draggedMorph submorphsDo: [:m | m width: maxWidth]].

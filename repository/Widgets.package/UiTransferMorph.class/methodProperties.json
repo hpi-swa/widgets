@@ -3,12 +3,19 @@
 		 },
 	"instance" : {
 		"aboutToBeGrabbedBy:" : "mt 11/8/2013 10:24:45.018",
+		"createDraggedSubmorphFor:" : "mt 12/16/2014 14:38:58.761",
 		"defaultColor" : "mt 11/8/2013 09:41:13.738",
+		"hasFlag:" : "mt 12/16/2014 15:07:46.852",
 		"iconFor:" : "mt 11/8/2013 11:13:49.403",
 		"initDraggedMorph" : "mt 11/8/2013 15:49:55.02",
-		"initDraggedMorphFor:" : "mt 11/8/2013 11:16:18.369",
+		"initDraggedMorphFor:" : "mt 12/16/2014 14:39:28.623",
 		"initialize" : "mt 11/8/2013 10:15:54.946",
+		"keyStroke:" : "mt 12/16/2014 14:49:29.428",
 		"labelFor:" : "mt 11/8/2013 11:13:43.005",
 		"labelMorphFor:" : "mt 11/8/2013 10:37:19.103",
-		"shouldEvaluate" : "mt 11/8/2013 10:28:28.253",
-		"updateCopyIcon" : "mt 11/8/2013 10:38:35.773" } }
+		"shouldCopy:" : "mt 12/16/2014 14:50:44.406",
+		"step" : "mt 12/16/2014 14:48:19.743",
+		"updateCopyIcon" : "mt 12/16/2014 15:08:19.802",
+		"updateFlag:description:value:" : "mt 12/16/2014 15:07:38.339",
+		"updateKeyStroke:" : "mt 12/16/2014 14:51:47.712",
+		"updateModifier:" : "mt 12/16/2014 14:51:32.465" } }

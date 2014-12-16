@@ -1,4 +1,0 @@
-accessing
-shouldEvaluate
-
-	^ self shouldCopy
