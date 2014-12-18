@@ -1,4 +1,4 @@
-as yet unclassified
+nil
 shouldCopy: boolean
 
 	copy = boolean ifTrue: [^ self].

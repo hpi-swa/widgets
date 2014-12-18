@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"withPassenger:from:" : "mt 12/18/2014 11:55:16.805" },
 	"instance" : {
 		"aboutToBeGrabbedBy:" : "mt 11/8/2013 10:24:45.018",
 		"createDraggedSubmorphFor:" : "mt 12/16/2014 14:38:58.761",
