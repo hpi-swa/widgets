@@ -8,3 +8,5 @@ SystemOrganization addCategory: #'WidgetTools-SystemProgress'!
 SystemOrganization addCategory: #'WidgetTools-SystemSearch'!
 SystemOrganization addCategory: #'WidgetTools-UnanticipatedProgress'!
 SystemOrganization addCategory: #'WidgetTools-WorldToolbar'!
+SystemOrganization addCategory: #WidgetTools!
+SystemOrganization addCategory: #'WidgetTools-Scripts'!

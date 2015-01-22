@@ -1,0 +1,17 @@
+{
+	"category" : "WidgetTools-Scripts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"continue",
+		"home",
+		"stopping" ],
+	"name" : "UiMorphScript",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
