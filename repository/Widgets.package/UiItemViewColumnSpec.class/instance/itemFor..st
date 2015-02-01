@@ -26,8 +26,9 @@ itemFor: aNode
 		item addMorphBack: checkbox].
 	
 	"Workaround for item layouting if item is empty."
-	((text isNil
+	(((text isNil
 		and: [icon isNil])
+		and: [morph isNil])
 		and: [checkbox isNil]) ifTrue: [text := ' ' asText].
 	
 	icon ifNotNil: [item addMorphBack: icon asMorph].
@@ -44,6 +45,7 @@ itemFor: aNode
 	item
 		setProperty: #text toValue: text;
 		setProperty: #icon toValue: icon;
+		setProperty: #morph toValue: morph;
 		setProperty: #balloonText toValue: balloonText;
 		setProperty: #checkBox toValue: checkbox;
 		setProperty: #selectable toValue: (self selectableFor: aNode).
