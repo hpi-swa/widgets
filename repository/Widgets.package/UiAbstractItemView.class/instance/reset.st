@@ -2,8 +2,9 @@ model - initialization
 reset
 
 	| selectedIndices currentIndex |
-	selectedIndices := self selection selectedIndices.
-	currentIndex := self selection currentIndex.
+	self model ifNotNil: [
+		selectedIndices := self selection selectedIndices.
+		currentIndex := self selection currentIndex].
 
 	self viewport clear.
 	
@@ -13,8 +14,10 @@ reset
 		info hAlignment: spec hAlignment.
 		info vAlignment: spec vAlignment].
 	self resetHeaderItems.
+
+	self model ifNil: [^ self].
 	
-	(self model notNil and: [self columnSpecs notEmpty]) ifTrue: [		
+	self columnSpecs ifNotEmpty: [		
 		self fillViewportFor: nil animated: false].
 
 	"Restore selection if any."
