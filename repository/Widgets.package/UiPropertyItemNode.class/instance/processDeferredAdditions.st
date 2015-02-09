@@ -17,3 +17,14 @@ processDeferredAdditions
 		self childrenInsertedFrom: oldSize + 1 to: (self childCountInGroup: group)  inGroup: group].
 	
 	deferredAdditions removeAll.
+
+	ActiveWorld
+		removeAlarm: #processDeferredAdditions
+		for: self.
+
+	deferAdd ifTrue: [
+		ActiveWorld
+			addAlarm: #processDeferredAdditions
+			withArguments: #()
+			for: self
+			at: Time millisecondClockValue + 500].
