@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sprites",
+		"speed" ],
+	"name" : "UiAnimatedForm",
+	"pools" : [
+		 ],
+	"super" : "Form",
+	"type" : "normal" }
