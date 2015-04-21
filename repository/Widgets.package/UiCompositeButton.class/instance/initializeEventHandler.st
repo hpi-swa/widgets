@@ -3,4 +3,4 @@ initializeEventHandler
 
 	super initializeEventHandler.
 	
-	self eventHandler mouseDownPriority: 1.
+	self mouseDownPriority: 1.

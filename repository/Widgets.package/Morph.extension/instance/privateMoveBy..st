@@ -2,8 +2,7 @@
 privateMoveBy: delta 
 	"Private! Use 'position:' instead."
 	| fill |
-	self flag: #pharo. "mt: Check for #player to be compatible with Pharo."
-	((self respondsTo: #player) and: [self player notNil]) ifTrue: ["Most cases eliminated fast by above test"
+	self player notNil ifTrue: ["Most cases eliminated fast by above test"
 		self getPenDown ifTrue: [
 			"If this is a costume for a player with its 
 			pen down, draw a line."

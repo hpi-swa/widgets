@@ -5,7 +5,7 @@ stopFadeOut
 
 	closeButton ifNil: [closeButton :=
 		UiToolButton new
-			icon: (UiButtonIcons crossSmallSunkenIcon clippedTo: 10@16);
+			icon: (UiButtonIcons crossSmallSunkenIcon clippedToSize: 10@16);
 			buttonStyle: #iconOnly;
 			color: (Color gray: 0.85);
 			autoRaise: true.

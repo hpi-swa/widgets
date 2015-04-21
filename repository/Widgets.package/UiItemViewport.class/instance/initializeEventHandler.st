@@ -3,8 +3,8 @@ initializeEventHandler
 
 	self eventHandler: UiEventHandler new.
 
+	self mouseDownPriority: 25. "Catch all clicks for my cells to trigger context menu."
 	self eventHandler
-		mouseDownPriority: 25; "Catch all clicks for my cells to trigger context menu."
 		setProperty: #handlesMouseWheel toValue: [true];
 		grabKeyboardOnMouseEnter: true.
 	
