@@ -3,15 +3,11 @@ baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		spec project: 'Signals' with: [
-			spec
-				className: 'BaselineOfSignals';
-				repository: 'github://marceltaeumel/signals:master/repository'].
+		spec baseline: 'Signals' with: [
+			spec repository: 'github://marceltaeumel/signals:master/repository'].
 
-		spec project: 'Animations' with: [
-			spec
-				className: 'BaselineOfAnimations';
-				repository: 'github://marceltaeumel/animations:master/repository'].
+		spec baseline: 'Animations' with: [
+			spec repository: 'github://marceltaeumel/animations:master/repository'].
 
 		spec package: 'VB-Regex' with: [spec repository: 'http://www.squeaksource.com/Regex'].
 					
