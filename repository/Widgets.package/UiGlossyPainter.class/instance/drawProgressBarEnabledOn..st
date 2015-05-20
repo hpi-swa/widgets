@@ -64,7 +64,7 @@ drawProgressBarEnabledOn: aCanvas
 		
 	"Draw bar text."
 	self morph text ifNotNil: [:label |
-		aCanvas clipBy: self innerBounds during: [:c | c
+		aCanvas clipBy: self bounds during: [:c | c
 			drawString: label asString
 			at: textPosition
 			font: font
