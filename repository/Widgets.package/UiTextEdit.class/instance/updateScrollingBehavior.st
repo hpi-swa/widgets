@@ -3,6 +3,7 @@ updateScrollingBehavior
 	"Read #scrollingLimit and #scrollingMode and update height and scroll bar visibility."
 	
 	self scrollingMode ~= #none
+		ifFalse: [areaResizable := false]
 		ifTrue: [
 			areaResizable := true.
 			verticalScrollBarPolicy := #asNeeded].

@@ -16,19 +16,19 @@ drawTextEditEnabledOn: aCanvas
 
 		self upperBounds in: [:b |
 		aCanvas
-			fillRectangle: (b insetBy: (0@1 corner: 0@0))
+			fillRectangle: (b outsetBy: (1@0 corner: 1@0))
 			fillStyle: fillStyleUpper;
-			line: b topLeft + (1 @ 0)
-			to: b topRight + (-2 @ 0)
+			line: b topLeft - (0 @ 1)
+			to: b topRight - (1 @ 1)
 			width: 1
 			color: fillStyleUpper colorRamp first value].
 		
 		self lowerBounds in: [:b |
 		aCanvas
-			fillRectangle: (b insetBy: (0@0 corner: 0@1))
+			fillRectangle: (b outsetBy: (1@0 corner: 1@0))
 			fillStyle: fillStyleLower;
-			line: b bottomLeft + (1@ -1)
-			to: b bottomRight + (-2@ -1)
+			line: b bottomLeft + (0 @ 0)
+			to: b bottomRight + (-1 @ 0)
 			width: 1
 			color: fillStyleLower colorRamp last value].
 	].
@@ -36,6 +36,6 @@ drawTextEditEnabledOn: aCanvas
 	"Fill background."
 	UiPlatform current
 		canvas: aCanvas
-		fillRoundRect: (self bounds insetBy: (1@1 corner: 1@1))
+		fillRoundRect: self bounds
 		radius: 3
 		fillStyle: (SolidFillStyle color: c).

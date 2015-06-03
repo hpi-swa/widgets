@@ -6,28 +6,24 @@ updateLayout
 	self transformMorph bounds: self viewportBounds.
 	self connect: self transformMorph signal: #areaChanged toSelector: #updateLayout.
 
-	self isVerticalScrollBarVisible
-		ifFalse: [self removeMorph: self verticalScrollBar]
-		ifTrue: [self addMorph: self verticalScrollBar].  
-	
-	self verticalScrollBar
-		extent: self scrollBarThickness @ self transformMorph height;
-		topLeft: self transformMorph right @ self top.
+	"Migration code."
+	self verticalScrollBar owner ifNil: [self addMorph: self verticalScrollBar].
+	self horizontalScrollBar owner ifNil: [self addMorph: self horizontalScrollBar].
+	self cornerWidget owner ifNil: [self addMorph: self cornerWidget].
 
-	self isHorizontalScrollBarVisible
-		ifFalse: [self removeMorph: self horizontalScrollBar]
-		ifTrue: [self addMorph: self horizontalScrollBar].  
+	self verticalScrollBar
+		visible: self isVerticalScrollBarVisible;
+		extent: self scrollBarThickness @ (self transformMorph height - 2 + (self outerBorderWidth*2));
+		topRight: (self right - 1 + self outerBorderWidth) @ (self top + 1 - self outerBorderWidth).
 		
 	self horizontalScrollBar
-		extent: self transformMorph width @ self scrollBarThickness;
-		topLeft: self left @ self transformMorph bottom.
-
-	self isHorizontalScrollBarVisible & self isVerticalScrollBarVisible
-		ifFalse: [self removeMorph: self cornerWidget]
-		ifTrue: [self addMorph: self cornerWidget].  
+		visible: self isHorizontalScrollBarVisible;
+		extent: (self transformMorph width - 2 + (self outerBorderWidth*2)) @ self scrollBarThickness;
+		bottomLeft: (self left + 1 - self outerBorderWidth) @ (self bottom - 1 + self outerBorderWidth).
 		
 	self cornerWidget
-		extent: self scrollBarThickness @ self scrollBarThickness;
+		visible: self isHorizontalScrollBarVisible & self isVerticalScrollBarVisible;
+		extent: (self scrollBarThickness + 2) asPoint;
 		topLeft: self transformMorph bottomRight.
 		
 	self widget ifNil: [^ self].

@@ -12,9 +12,9 @@ updateLayout
 		topLeft: self left @ self transformMorph top.
 
 	self verticalScrollBar
-		height: self transformMorph bottom - self top.
+		height: self transformMorph bottom - self top - 2 + (self outerBorderWidth*2).
 		
 	self horizontalScrollBar
-		width: self transformMorph right - self left.
+		width: self transformMorph right - self left - 2 + (self outerBorderWidth*2).
 		
 	self updateViewportExtent.
