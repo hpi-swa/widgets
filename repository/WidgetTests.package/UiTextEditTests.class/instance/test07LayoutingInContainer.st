@@ -25,5 +25,4 @@ test07LayoutingInContainer
 	
 	container fullBounds. "compute layout"
 
-	"Layout computation is buggy here. Try to work with it and check here if the bug still exists."
-	self deny: sut outerBounds bottom = anotherSut outerBounds top.
+	self assert: sut outerBounds bottom = anotherSut outerBounds top.
