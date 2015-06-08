@@ -40,9 +40,9 @@ updateLayout
 		ifTrue: [
 			self transformMorph verticalOffset: 0.
 			self height: self widget height * self transformMorph scale + (self isHorizontalScrollBarVisible
-				ifTrue: [self scrollBarThickness + 1] ifFalse: [0])]
+				ifTrue: [self scrollBarThickness + 2 - self outerBorderWidth] ifFalse: [0])]
 		ifFalse: [self horizontalScrollBarPolicy = #alwaysOff
 			ifTrue: [
 				self transformMorph horizontalOffset: 0.
 				self width: self widget width * self transformMorph scale + (self isVerticalScrollBarVisible
-					ifTrue: [self scrollBarThickness + 1] ifFalse: [0])]]].
+					ifTrue: [self scrollBarThickness + 2 - self outerBorderWidth] ifFalse: [0])]]].
