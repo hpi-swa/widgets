@@ -1,6 +1,7 @@
 as yet unclassified
 allNodesInto: result
 
+	self flag: #performance.
 	(result includes: self)
 		ifFalse: [result add: self]
 		ifTrue: [^ result "avoid cycles"].
