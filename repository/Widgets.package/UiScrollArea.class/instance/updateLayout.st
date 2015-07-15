@@ -31,9 +31,9 @@ updateLayout
 	"Intelligent layout mechanisms."
 	self widgetResizable ifTrue: [
 		self horizontalScrollBarPolicy = #alwaysOff
-			ifTrue: [self widget width: self transformMorph width / self transformMorph scale]
-			ifFalse: [self verticalScrollBarPolicy = #alwaysOff
-				ifTrue: [self widget height: self transformMorph height / self transformMorph scale]]].
+			ifTrue: [self widget width: self transformMorph width / self transformMorph scale].
+		self verticalScrollBarPolicy = #alwaysOff
+			ifTrue: [self widget height: self transformMorph height / self transformMorph scale]].
 	
 	self areaResizable ifTrue: [
 		self verticalScrollBarPolicy = #alwaysOff
