@@ -4,10 +4,10 @@ baseline: spec
 	
 	spec for: #common do: [
 		spec baseline: 'Signals' with: [
-			spec repository: 'github://marceltaeumel/signals:master/repository'].
+			spec repository: 'github://hpi-swa/signals:master/repository'].
 
 		spec baseline: 'Animations' with: [
-			spec repository: 'github://marceltaeumel/animations:master/repository'].
+			spec repository: 'github://hpi-swa/animations:master/repository'].
 
 		spec package: 'VB-Regex' with: [spec repository: 'http://www.squeaksource.com/Regex'].
 					
