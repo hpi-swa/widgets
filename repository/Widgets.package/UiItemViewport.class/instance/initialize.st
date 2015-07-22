@@ -13,4 +13,6 @@ initialize
 	rowOrder := UiItemOrder new.
 	columnOrder := UiItemOrder new.
 	
+	cellToBounds := Array new.
+	
 	self selectionMode: UiViewSingleSelection.
