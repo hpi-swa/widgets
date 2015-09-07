@@ -4,10 +4,12 @@
 	"instance" : {
 		"currentValue" : "mt 2/25/2011 10:44:02.309",
 		"currentValue:" : "mt 2/25/2011 11:09:53.675",
+		"decreaseValue:" : "mt 9/4/2015 09:36",
 		"decreaseValueByPageStep" : "mt 2/26/2011 14:37:43.316",
 		"decreaseValueBySingleStep" : "mt 2/26/2011 14:37:32.985",
 		"guardedValue:" : "mt 2/25/2011 11:15:26.423",
 		"hasTracking" : "mt 2/11/2011 16:30:22.079",
+		"increaseValue:" : "mt 9/4/2015 09:36",
 		"increaseValueByPageStep" : "mt 2/26/2011 14:37:48.965",
 		"increaseValueBySingleStep" : "mt 2/26/2011 14:37:26.474",
 		"initialize" : "mt 3/25/2011 14:21:27.102",
