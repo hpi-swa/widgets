@@ -1,13 +1,18 @@
 accessing
 optimalSize
 
+	| preferredRowCount preferredColumnCount |	
 	columns ifEmpty: [^ 1@1].
 
 	self orientation = #default ifTrue: [
 		^ columns first optimalSize @ self height].
+
+	preferredRowCount := 20.
+	preferredColumnCount := 4.
 	
 	self orientation = #vertical ifTrue: [
-		^ maxItemExtent x @ self height].
+		^ (maxItemExtent x * preferredColumnCount) @ (maxItemExtent y * (self submorphs size / preferredColumnCount) ceiling)].
 	
 	self orientation = #horizontal ifTrue: [
-		^ self width @ maxItemExtent y].
+		^ (maxItemExtent x * (self submorphs size / preferredRowCount) ceiling)
+			@ (maxItemExtent y * preferredRowCount)].
