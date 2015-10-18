@@ -11,11 +11,12 @@ offsetToShow: aRectangle
 
 	"Normalize the incoming rectangle."
 	target := 
-			(scroller width < aRectangle width
-				ifTrue: [offset x < aRectangle left "Coming from left?"
+			"(scroller width < aRectangle width
+				ifTrue: [offset x < aRectangle left <-- coming from left?
 					ifTrue: [aRectangle right - scroller width]
 					ifFalse: [aRectangle left]]
-				ifFalse: [aRectangle left])
+				ifFalse: [aRectangle left])"
+			aRectangle left
 		@
 			(scroller height < aRectangle height
 				ifTrue: [offset y < aRectangle top "Coming from top?"
@@ -24,9 +25,7 @@ offsetToShow: aRectangle
 				ifFalse: [aRectangle top])
 		corner: 
 			(scroller width < aRectangle width
-				ifTrue: [offset x + scroller width > aRectangle right "Coming from right?"
-					ifTrue: [aRectangle left + scroller width]
-					ifFalse: [aRectangle right]]
+				ifTrue: [aRectangle left + scroller width]
 				ifFalse: [aRectangle right])
 		@
 			(scroller height < aRectangle height
