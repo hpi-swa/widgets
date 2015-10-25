@@ -5,10 +5,11 @@ listOrientation: aSymbol
 	#horizontal ... items go from top to bottom and break at height -> horizontal scrolling
 	#horizontalSingleRow ... like #horizontal but with only one row"
 
-"	self listOrientation = aSymbol
-		ifTrue: [^ self].
-"	
+	| old |
+	old := self listOrientation.
+	
 	self viewport orientation: aSymbol.
+	old = aSymbol ifFalse: [self updateEventHandler].	
 	
 	aSymbol = #default
 		ifTrue: [self
@@ -24,5 +25,5 @@ listOrientation: aSymbol
 		ifTrue: [self
 			horizontalScrollBarPolicy: #asNeeded;
 			verticalScrollBarPolicy: #alwaysOff].
-		
+	
 	self updateViewportLayout.

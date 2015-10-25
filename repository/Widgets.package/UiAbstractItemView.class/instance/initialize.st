@@ -48,6 +48,7 @@ initialize
 	
 	"Vertical scrolling is dependent from default item height."
 	self verticalScrollBar singleStep: UiItemViewColumnSpec defaultItemExtent y.
+	self horizontalScrollBar singleStep: UiItemViewColumnSpec defaultItemExtent x.
 	
 	"Initialize headers - Finish."
 	verticalHeader connect: self viewport signal: #resizedToWidth:height: toSelector: #height: pattern: #(2).

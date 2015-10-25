@@ -1,9 +1,7 @@
 events
 activateCurrentCell
 
-	self selection currentIndex ifNil: [^ self].
-
-	self selection currentCell ifNotNil: [
+	self selection currentIndex ifNotNil: [:index |
 		self
-			activated: self selection currentIndex;
-			returnPressed: self selection currentIndex].
+			activated: index;
+			returnPressed: index].
