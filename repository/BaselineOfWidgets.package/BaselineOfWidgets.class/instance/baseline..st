@@ -18,9 +18,11 @@ baseline: spec
 				requires: #('Widgets' 'Icons')];
 			package: 'WidgetTests' with: [spec
 				requires: #('Widgets')];
-			package: 'Widgets' with: [spec
-				requires: #('Animations' 'Signals' 'VB-Regex');
-				postLoadDoIt: #postLoad].
+			package: 'Widgets' with: [
+				(#('Squeak4.6' 'Squeak5.0') includes: Smalltalk version)
+					ifTrue: [spec requires: #('Animations' 'Signals' 'VB-Regex')]
+					ifFalse: [spec requires: #('Animations' 'Signals')].
+				spec postLoadDoIt: #postLoad].
 
 		spec
 			group: 'default' with: #('core');
