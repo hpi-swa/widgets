@@ -9,8 +9,8 @@ mousePressCell: evt
 		and: [self selection cells includes: cell])
 		ifTrue: [self beginEditCell: cell].
 	
+	morph := self morphAt: cell.
 	self selectCell: cell event: evt.
 	
 	"Pass event to item."
-	morph := self morphAt: cell.
 	morph mouseDown: evt.
