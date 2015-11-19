@@ -4,6 +4,8 @@
 language: smalltalk
 sudo: false
 
+os: osx
+
 smalltalk:
   - Squeak-Trunk
   - Squeak-5.0
