@@ -1,4 +1,4 @@
-# Copyright (c) 2013-2015 Software Architecture Group (Hasso Plattner Institute)
+# Copyright (c) 2013-2016 Software Architecture Group (Hasso Plattner Institute)
 # Copyright (c) 2015 Fabio Niephaus, Google Inc.
 
 language: smalltalk
@@ -11,7 +11,8 @@ smalltalk:
   - Squeak-5.0
   - Squeak-4.6
 
+baseline: Widgets
+
 env:
   global:
-    - BASELINE=Widgets
     - PACKAGES="/repository"
