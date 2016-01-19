@@ -1,4 +1,4 @@
 accessing
 grabKeyboardOnMouseEnter
 
-	^ self valueOfProperty: #grabKeyboardOnMouseEnter
+	^ (self valueOfProperty: #grabKeyboardOnMouseEnter) value

@@ -14,6 +14,6 @@ initialize
 		setProperty: #handlesMouseWheel toValue: [false];
 		setProperty: #doubleClickTimeout toValue: [20 "ms"];
 		dragThreshold: UiPlatform current dragThreshold "pixel";
-		grabKeyboardOnMouseEnter: false;
+		grabKeyboardOnMouseEnter: [Preferences mouseOverForKeyboardFocus];
 		releaseKeyboardOnMouseLeave: false;
 		tabAmongFields: false. "not implemented yet"

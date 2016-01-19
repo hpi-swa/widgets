@@ -5,8 +5,7 @@ initializeEventHandler
 
 	self mouseDownPriority: 25. "Catch all clicks for my cells to trigger context menu."
 	self eventHandler
-		setProperty: #handlesMouseWheel toValue: [true];
-		grabKeyboardOnMouseEnter: true.
+		setProperty: #handlesMouseWheel toValue: [true].
 	
 	self connect: self eventHandler signal: #mouseLeft: toSelector: #hoveredCell: pattern: #(=nil).
 	self connect: self eventHandler signal: #mouseLeft: toSelector: #hoveredDropMode: pattern: #(=none).
