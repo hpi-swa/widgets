@@ -2,6 +2,8 @@ events
 mousePressCell: evt
 
 	| cell morph |
+	self grabKeyboard.
+	
 	cell := self cellIndexFromPoint: evt position.
 	cell ifNil: [^ self].
 	
