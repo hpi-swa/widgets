@@ -29,8 +29,7 @@ baseline: spec
 			group: 'core' with: #('Widgets');
 			group: 'tools' with: #('WidgetTools');
 			group: 'tests' with: #('WidgetTests');
-			group: 'full' with: #('tools' 'tests');
-			group: 'TravisCI' with: #('WidgetTests')].
+			group: 'full' with: #('tools' 'tests')].
 		
 	spec for: #squeak do: [
 		spec
