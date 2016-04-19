@@ -8,13 +8,6 @@ itemFor: aNode
 	balloonText := self balloonTextFor: aNode.
 	itemColor := self colorFor: aNode.
 	
-	"Configurable data conversion step."
-	self iconConverter ifNotNil: [:c | icon := c value: icon].
-	self textConverter ifNotNil: [:c | text := c value: text].
-	self balloonTextConverter ifNotNil: [:c | balloonText := c value: balloonText].
-	self colorConverter ifNotNil: [:c | itemColor := c value: itemColor].
-	self morphConverter ifNotNil: [:c | morph := c value: morph].
-	
 	item := Morph new color: (itemColor ifNil: [Color transparent]).
 	
 	"A checkbox is created if this column was configured to have checkable nodes."
