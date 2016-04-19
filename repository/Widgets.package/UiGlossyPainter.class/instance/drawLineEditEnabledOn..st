@@ -7,7 +7,7 @@ drawLineEditEnabledOn: aCanvas
 	"Draw help text."
 	(self morph helpText isEmpty or: [self morph textMorph contents notEmpty]) ifTrue: [^ self].
 
-	font := self morph textMorph textStyle defaultFont.
+	font := Preferences standardDefaultTextFont.
 
 	aCanvas
 		drawString: self morph helpText 
