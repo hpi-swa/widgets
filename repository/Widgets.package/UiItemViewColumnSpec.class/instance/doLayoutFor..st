@@ -49,7 +49,8 @@ doLayoutFor: aMorph
 		^ self].
 	
 	self itemOrientation = #vertical ifTrue: [
-		aMorph width: aMorph submorphs last width + 10.
+		aMorph fullBounds.
+		aMorph width: ((aMorph submorphs collect: [:m | m width]) max) + 10.
 			
 		"Manual layouting."
 		offset := aMorph top + 3.
