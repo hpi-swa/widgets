@@ -8,7 +8,11 @@ itemFor: aNode
 	balloonText := self balloonTextFor: aNode.
 	itemColor := self colorFor: aNode.
 	
-	item := Morph new color: (itemColor ifNil: [Color transparent]).
+	item := Morph new.
+	
+	itemColor
+		ifNil: [item color: Color transparent]
+		ifNotNil: [:c | item color: c; cornerStyle: #rounded; setProperty: #cornerRadius toValue: 3; borderWidth: 1 "transparent border"].
 	
 	"A checkbox is created if this column was configured to have checkable nodes."
 	(self checkableFor: aNode) ifTrue: [
