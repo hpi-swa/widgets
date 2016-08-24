@@ -2,8 +2,8 @@ selection
 onCurrentCellChangedFrom: oldCellIndex to: newCellIndex
 
 	self
-		invalidRect: (self boundsFor: oldCellIndex);
-		invalidRect: (self boundsFor: newCellIndex).
+		invalidRect: ((self boundsFor: oldCellIndex) outsetBy: (0@0 corner: 0@1));
+		invalidRect: ((self boundsFor: newCellIndex) outsetBy: (0@0 corner: 0@1)).
 		
 	self updateVisibilityForCheckBoxesFor: newCellIndex old: oldCellIndex.
 

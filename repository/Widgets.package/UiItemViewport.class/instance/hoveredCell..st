@@ -5,8 +5,8 @@ hoveredCell: newCellIndex
 		ifTrue: [^ self].
 				
 	self
-		invalidRect: (self boundsFor: newCellIndex);
-		invalidRect: (self boundsFor: hoveredCell).
+		invalidRect: ((self boundsFor: newCellIndex) outsetBy: (0@0 corner: 0@1));
+		invalidRect: ((self boundsFor: hoveredCell) outsetBy: (0@0 corner: 0@1)).
 
 	"Show/hide checkboxes."
 	self updateVisibilityForCheckBoxesFor: newCellIndex old: hoveredCell.

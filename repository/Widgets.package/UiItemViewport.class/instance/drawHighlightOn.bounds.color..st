@@ -12,7 +12,7 @@ drawHighlightOn: aCanvas bounds: drawBounds color: aColor
 		
 	UiPlatform current
 		canvas: aCanvas
-		fillRoundRect: (drawBounds insetBy: (1@1 corner: 1@1))
+		fillRoundRect: (drawBounds insetBy: (1@1 corner: 1@0))
 		radius: 3
 		fillStyle: gradient.
 		
