@@ -1,10 +1,6 @@
 keyboard - handling
 keyStroke: aKeyboardEvent fromMorph: aMorph
 
-	"Handle VM-specific mapping from mouse wheel interaction to key stroke event: [Ctrl]+Up/Down"
-	(self isMouseWheelEvent: aKeyboardEvent)
-		ifTrue: [^ self mouseWheel: (self asMouseWheelEvent: aKeyboardEvent) fromMorph: aMorph].
-
 	(self tabAmongFields and: [aKeyboardEvent keyCharacter = Character tab])
 		ifTrue: [self shouldBeImplemented].
 		

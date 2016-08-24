@@ -3,7 +3,7 @@ mouseWheel: aMouseEvent fromMorph: aMorph
 
 	(self handlesMouseWheel: aMouseEvent)
 		ifTrue: [
-			aMouseEvent direction = #up
+			aMouseEvent isWheelUp
 				ifTrue: [self mouseWheelUp: aMouseEvent].
-			aMouseEvent direction = #down
+			aMouseEvent isWheelDown
 				ifTrue: [self mouseWheelDown: aMouseEvent]].
