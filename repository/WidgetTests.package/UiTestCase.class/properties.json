@@ -9,7 +9,8 @@
 		"sut",
 		"spy",
 		"hand",
-		"time" ],
+		"time",
+		"world" ],
 	"name" : "UiTestCase",
 	"pools" : [
 		 ],

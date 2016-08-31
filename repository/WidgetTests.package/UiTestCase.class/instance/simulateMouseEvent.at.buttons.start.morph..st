@@ -10,11 +10,4 @@ simulateMouseEvent: aSymbol at: aPoint buttons: someMouseButtons start: aStartPo
 		aStartPoint x.
 		aStartPoint y}) readStream.
 	
-	morphicEvent
-		wasHandled: false;
-		setHand: hand.
-	
-	hand
-		position: aPoint;
-		newMouseFocus: aMorph event: morphicEvent;
-		handleEvent: morphicEvent.  
+	self simulateMouseEvent: morphicEvent morph: aMorph.
