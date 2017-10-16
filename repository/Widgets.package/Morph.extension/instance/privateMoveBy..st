@@ -7,7 +7,7 @@ privateMoveBy: delta
 			"If this is a costume for a player with its 
 			pen down, draw a line."
 			self moveWithPenDownBy: delta]].
-	self privateBounds: (bounds translateBy: delta).
+	bounds := bounds translateBy: delta.
 	fullBounds ifNotNil: [fullBounds := fullBounds translateBy: delta].
 	fill := self fillStyle.
 	fill isOrientedFill ifTrue: [fill origin: fill origin + delta].
