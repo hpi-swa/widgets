@@ -5,7 +5,7 @@ aggregate: key with: block defaultValue: object minimumValue: minObject
 	self nodesDo: [:node | 
 		| val |
 		val := node nodes 
-		inject: (node hasChildren ifTrue: [object] ifFalse: [node at: key ifAbsent: [object]])
+		inject: (node hasChildren ifTrue: [0] ifFalse: [node at: key ifAbsent: [object]])
 		into: [:result :each | block value: result value: (each at: key ifAbsent: [object])].
 		
 		val < minObject ifTrue: [val := minObject].
