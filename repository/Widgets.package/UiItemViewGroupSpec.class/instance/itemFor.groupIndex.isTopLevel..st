@@ -5,7 +5,10 @@ itemFor: aNode groupIndex: aGroupIndex isTopLevel: aBoolean
 	| icon text balloonText item |	
 
 	aBoolean ifFalse: [
-		text := ('<font family="Bitmap Segoe UI" size="8" color="#AAAAAA">', (aNode groups at: aGroupIndex), '</font>') asHtmlText.
+		text := (aNode groups at: aGroupIndex) asText.
+		text
+			addAttribute: (TextFontReference toFont: Preferences standardButtonFont);
+			addAttribute: (TextColor color: (Color gray: 0.66)).
 		item := text asMorph
 			margins: (0@2 corner: 0@ -1);
 			lock.
@@ -17,7 +20,11 @@ itemFor: aNode groupIndex: aGroupIndex isTopLevel: aBoolean
 			setProperty: #hideIfSingle toValue: true.
 		^ item].
 	
-	text := ('<font family="Bitmap Segoe UI" size="10" color="#AAAAAA">', (aNode groups at: aGroupIndex), '</font>') asHtmlText.
+	text := (aNode groups at: aGroupIndex) asText.
+	text
+		addAttribute: (TextFontReference toFont: Preferences standardButtonFont);
+		addAttribute: (TextColor color: (Color gray: 0.66)).
+			
 	icon := nil.
 	balloonText := nil.
 		
