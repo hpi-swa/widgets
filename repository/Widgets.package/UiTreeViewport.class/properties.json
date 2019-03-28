@@ -7,7 +7,9 @@
 	"commentStamp" : "mt 11/2/2010 12:47:08.195",
 	"instvars" : [
 		"indent",
-		"rootIsDecorated" ],
+		"rootIsDecorated",
+		"expandedIcon",
+		"collapsedIcon" ],
 	"name" : "UiTreeViewport",
 	"pools" : [
 		 ],
