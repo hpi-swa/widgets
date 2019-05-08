@@ -21,7 +21,7 @@ test11NodesDoAggregation
 		10 -> {}}}.
 	expected := (1 to: 10) sum.
 
-	sut nodesDo: [:node | node data: (node nodes 
+	sut allNodesUpwardsDo: [:node | node data: (node nodes 
 		inject: (node data ifNil: 0)
 		into: [:sum :each | sum + each data])].
 

@@ -4,5 +4,5 @@ OrderedDictionary {
 	'repository\/WidgetSqueakPlatform.package' : #SquotCypressCodeSerializer,
 	'repository\/WidgetTools.package' : #SquotCypressCodeSerializer,
 	'repository\/Widgets.package' : #SquotCypressCodeSerializer,
-	'repository\/WidgetTests.package' : nil
+	'repository\/WidgetTests.package' : #SquotCypressCodeSerializer
 }

@@ -1,8 +1,8 @@
-as yet unclassified
+nodes - aggregation
 aggregate: key with: block defaultValue: object minimumValue: minObject
 	"Aggregate values in leaves up to root."
 	
-	self nodesDo: [:node | 
+	self allNodesUpwardsDo: [:node | 
 		| val |
 		val := node nodes 
 		inject: (node hasChildren ifTrue: [0] ifFalse: [node at: key ifAbsent: [object]])
