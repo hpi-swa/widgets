@@ -7,4 +7,4 @@ initialize
 		orientation: #horizontal;
 		extent: 50@20;
 		layoutInset: 0;
-		cellInset: 0.
+		cellGap: 0.

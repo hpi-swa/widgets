@@ -6,7 +6,7 @@ initialize
 	self
 		color: (Color gray: 0.9);
 		listCentering: #center;
-		cellInset: 1;
+		cellGap: 1;
 		layoutInset: 2;  
 		orientation: #horizontal;
 		disableTableLayout: true.

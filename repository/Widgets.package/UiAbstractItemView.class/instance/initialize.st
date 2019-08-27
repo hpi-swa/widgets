@@ -2,7 +2,7 @@ initialization
 initialize
 
 	"Initialize headers."
-	verticalHeader := Morph new color: Color transparent; changeTableLayout; listDirection: #topToBottom; hResizing: #shrinkWrap; cellInset: -1 "hacky".
+	verticalHeader := Morph new color: Color transparent; changeTableLayout; listDirection: #topToBottom; hResizing: #shrinkWrap; cellGap: -1 "hacky".
 	horizontalHeader := Morph new color: Color transparent; changeTableLayout; listDirection: #leftToRight; vResizing: #shrinkWrap.
 	vHeaderScroller := UiTransformMorph new.
 	hHeaderScroller := UiTransformMorph new.
