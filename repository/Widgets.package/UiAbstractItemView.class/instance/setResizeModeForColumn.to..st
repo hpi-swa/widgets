@@ -1,7 +1,7 @@
 rows/columns - resizing
 setResizeModeForColumn: anIndex to: aSymbol
 
-	(self viewport columnAt: anIndex) = aSymbol
+	(self viewport columnAt: anIndex) resizeMode = aSymbol
 		ifTrue: [^ self].
 		
 	(self viewport columnAt: anIndex)

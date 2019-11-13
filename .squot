@@ -1,6 +1,6 @@
 OrderedDictionary {
 	'repository\/BaselineOfWidgets.package' : #SquotCypressCodeSerializer,
-	'repository\/WidgetPharoPlatform.package' : #SquotCypressCodeSerializer,
+	'repository\/WidgetPharoPlatform.package' : nil,
 	'repository\/WidgetSqueakPlatform.package' : #SquotCypressCodeSerializer,
 	'repository\/WidgetTools.package' : #SquotCypressCodeSerializer,
 	'repository\/Widgets.package' : #SquotCypressCodeSerializer,
