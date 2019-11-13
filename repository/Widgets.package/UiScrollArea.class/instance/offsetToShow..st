@@ -34,11 +34,11 @@ offsetToShow: aRectangle
 					ifFalse: [aRectangle bottom]]
 				ifFalse: [aRectangle bottom]).
 
-	"Vertical Scrolling"
-	target top < offset y
-		ifTrue: [offset := offset x @ target top].	
+	"Vertical Scrolling: bottom edge before top edge to avoid strange layout effects for large focus rectangles"
 	target bottom > (offset y + scroller height)
 		ifTrue: [offset := offset x @ (target bottom - scroller height)].
+	target top < offset y
+		ifTrue: [offset := offset x @ target top].	
 	
 	"Horizontal Scrolling"
 	target left < offset x
