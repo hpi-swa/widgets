@@ -7,7 +7,8 @@
 	"commentStamp" : "mt 10/9/2010 11:38:45.048",
 	"instvars" : [
 		"vAlignment",
-		"hAlignment" ],
+		"hAlignment",
+		"textLineWrap" ],
 	"name" : "UiViewColumnInfo",
 	"pools" : [
 		 ],
