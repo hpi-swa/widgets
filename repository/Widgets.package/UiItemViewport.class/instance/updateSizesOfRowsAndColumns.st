@@ -14,6 +14,9 @@ updateSizesOfRowsAndColumns
 	spaceFillColumns ifNotEmpty: [:cols |
 		| spacePerCol |
 		spacePerCol := self width - usedSpace // cols size.
-		cols do: [:column | column resize: spacePerCol; updateItemSize]].
+		cols do: [:column |
+			column width = spacePerCol
+				ifTrue: [column updateItemSize]
+				ifFalse: [column resize: spacePerCol]]].
 
 	rows do: [:row | row updateSize].

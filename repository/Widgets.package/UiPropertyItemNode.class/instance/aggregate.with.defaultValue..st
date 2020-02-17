@@ -1,4 +1,4 @@
-as yet unclassified
+nodes - aggregation
 aggregate: key with: block defaultValue: object
 	
 	self

@@ -1,6 +1,4 @@
-as yet unclassified
+nodes - accessing
 nodes
 
-	^ self children
-		ifNil: [#()]
-		ifNotNil: [:groups | groups values gather: [:group | group]]
+	^ Array streamContents: [:s | self nodesDo: [:node | s nextPut: node]]

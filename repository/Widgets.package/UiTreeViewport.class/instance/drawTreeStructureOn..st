@@ -18,11 +18,11 @@ drawTreeStructureOn: aCanvas
 		form := (item valueOfProperty: #hasChildren)
 			ifFalse: [nil]
 			ifTrue: [(item valueOfProperty: #isExpanded)
-				ifFalse: [UiButtonIcons bulletArrowRightSunkenIcon]
-				ifTrue: [UiButtonIcons bulletArrowDownSunkenIcon]].
+				ifFalse: [self collapsedIcon]
+				ifTrue: [self expandedIcon]].
 
 		form ifNotNil: [
 			aCanvas
 				translucentImage: form
-				at: (cellBounds left + 4 + ((item valueOfProperty: #indent) - 12))
-					@ (cellBounds top + (18 "cellBounds height" - form height // 2))]].
+				at: (cellBounds left + (item valueOfProperty: #indent) - form width)
+					@ (cellBounds top + (cellBounds height - form height // 2))]].

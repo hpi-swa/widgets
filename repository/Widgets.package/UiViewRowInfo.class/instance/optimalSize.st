@@ -6,7 +6,7 @@ optimalSize
 	max := 0.
 	items do: [:item |
 		item vResizing ~= #spaceFill
-			ifTrue: [max := max max: item height]].
+			ifTrue: [max := max max: item fullBounds height]].
 	self headerItem ifNotNil: [:hi | hi submorphs ifNotEmpty: [
 		max := max max: self headerItem submorphBounds height]].
 	^ max

@@ -1,4 +1,4 @@
-as yet unclassified
+nodes - accessing
 allNodes
 
-	^ self allNodesInto: OrderedCollection new
+	^ Array streamContents: [:s | self allNodesDo: [:node | s nextPut: node]]

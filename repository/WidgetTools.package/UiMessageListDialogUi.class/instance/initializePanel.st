@@ -8,7 +8,7 @@ initializePanel
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
-	panel cellInset: (4).
+	panel cellGap: (4).
 	panel cellPositioning: (#center).
 	panel cellSpacing: (#none).
 	panel layoutInset: (4).
@@ -59,7 +59,7 @@ initializePanel
 	unnamedMorph1 position: (4@123).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
-	unnamedMorph1 cellInset: (4).
+	unnamedMorph1 cellGap: (4).
 	unnamedMorph1 cellPositioning: (#center).
 	unnamedMorph1 cellSpacing: (#none).
 	unnamedMorph1 layoutInset: (0).
@@ -83,7 +83,7 @@ initializePanel
 	unnamedMorph2 position: (4@124).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#rigid).
-	unnamedMorph2 cellInset: (4).
+	unnamedMorph2 cellGap: (4).
 	unnamedMorph2 cellPositioning: (#center).
 	unnamedMorph2 cellSpacing: (#none).
 	unnamedMorph2 layoutInset: (4).
@@ -110,7 +110,7 @@ initializePanel
 	okButton position: (69@123).
 	okButton hResizing: (#shrinkWrap).
 	okButton vResizing: (#shrinkWrap).
-	okButton cellInset: (4).
+	okButton cellGap: (4).
 	okButton cellPositioning: (#center).
 	okButton cellSpacing: (#none).
 	okButton layoutInset: (2@0 corner: 2@0).
@@ -140,7 +140,7 @@ initializePanel
 	cancelButton position: (117@123).
 	cancelButton hResizing: (#shrinkWrap).
 	cancelButton vResizing: (#shrinkWrap).
-	cancelButton cellInset: (4).
+	cancelButton cellGap: (4).
 	cancelButton cellPositioning: (#center).
 	cancelButton cellSpacing: (#none).
 	cancelButton layoutInset: (2@0 corner: 2@0).
@@ -169,7 +169,7 @@ initializePanel
 	unnamedMorph3 position: (185@124).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#rigid).
-	unnamedMorph3 cellInset: (4).
+	unnamedMorph3 cellGap: (4).
 	unnamedMorph3 cellPositioning: (#center).
 	unnamedMorph3 cellSpacing: (#none).
 	unnamedMorph3 layoutInset: (4).

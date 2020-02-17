@@ -1,4 +1,4 @@
 *widgets-text
 asHtmlText
 
-	^ UiHtmlTextFormatter toText: self
+	^ self asTextFromHtml

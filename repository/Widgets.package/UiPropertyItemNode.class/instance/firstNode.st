@@ -1,4 +1,5 @@
-as yet unclassified
+nodes - accessing
 firstNode
 
-	^ (self children detect: [:group | group notEmpty] ifNone: []) ifNotNil: [:group | group first]
+	self nodesDo: [:node | ^ node].
+	^ nil

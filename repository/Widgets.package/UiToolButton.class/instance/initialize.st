@@ -7,7 +7,7 @@ initialize
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		changeTableLayout;
-		cellInset: 4;
+		cellGap: 4;
 		layoutInset: (2@0 corner: 2@0).
 	
 	self

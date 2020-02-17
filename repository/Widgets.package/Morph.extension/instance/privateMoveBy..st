@@ -2,7 +2,7 @@
 privateMoveBy: delta 
 	"Private! Use 'position:' instead."
 	| fill |
-	self player notNil ifTrue: ["Most cases eliminated fast by above test"
+	self player ifNotNil: ["Most cases eliminated fast by above test"
 		self getPenDown ifTrue: [
 			"If this is a costume for a player with its 
 			pen down, draw a line."
