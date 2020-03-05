@@ -4,7 +4,7 @@ processEvents
 	entries ifNil: [^ self].
 	entries ifEmpty: [^ self].
 		
-	Sensor redButtonPressed ifTrue: [ Sensor mousePoint in: [:pt |
+	EventSensor default redButtonPressed ifTrue: [ EventSensor default peekPosition in: [:pt |
 		(entries detect: [:entry | self isEntry: entry clickedAtPoint: pt] ifNone: [])
 			ifNotNil: [:clickedEntry | | oldUiProcess |
 				oldUiProcess := Project uiProcess.
