@@ -6,4 +6,4 @@ optimalHeight
 		ifNil: [0]
 		ifNotNil: [:w |
 			w fullBounds. "update layout"
-			w height + self scrollBarThickness + 5]
+			w height + (self isHorizontalScrollBarVisible ifTrue: [self scrollBarThickness + 5] ifFalse: [0])]

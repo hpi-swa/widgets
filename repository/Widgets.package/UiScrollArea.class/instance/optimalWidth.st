@@ -4,4 +4,4 @@ optimalWidth
 	self flag: #magicNumber. "mt: Why is scrollbar thickness not sufficient here?"
 	^ self widget
 		ifNil: [0]
-		ifNotNil: [:w | w width + self scrollBarThickness + 5]
+		ifNotNil: [:w | w width + (self isVerticalScrollBarVisible ifTrue: [self scrollBarThickness + 5] ifFalse: [0])]

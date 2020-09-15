@@ -7,8 +7,10 @@ appendItemRows: data
 		self appendGroupSeparator: group key.
 		
 		group value do: [:row | row do: [:indexToItem |
-			indent ifNotNil: [:i |
-				indexToItem value setProperty: #indent toValue: i].
+			indent ifNotNil: [
+				indexToItem value
+					setProperty: #indent
+					toValue: (indexToItem key column = 1 ifTrue: [indent] ifFalse: [0])].
 			self
 				appendMorph: indexToItem value
 				inRow: (self appendRowFor: indexToItem key)

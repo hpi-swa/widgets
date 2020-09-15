@@ -7,5 +7,4 @@ optimalWidth
 		column resizeMode == #spaceFill
 			ifTrue: [w := w + column optimalSize]
 			ifFalse: [w := w + column width]].
-	self flag: #magicNumber. "mt: Why is scrollbar thickness not sufficient here?"
-	^ w + self scrollBarThickness + 5
+	^ w + (self isVerticalScrollBarVisible ifTrue: [self scrollBarThickness + 5] ifFalse: [0])
