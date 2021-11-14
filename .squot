@@ -1,7 +1,7 @@
 OrderedDictionary {
-	'repository\/WidgetTests.package' : #SquotCypressCodeSerializer,
-	'repository\/BaselineOfWidgets.package' : #SquotCypressCodeSerializer,
-	'repository\/WidgetSqueakPlatform.package' : #SquotCypressCodeSerializer,
-	'repository\/WidgetTools.package' : #SquotCypressCodeSerializer,
-	'repository\/Widgets.package' : #SquotCypressCodeSerializer
+	'repository/WidgetTests.package' : #SquotCypressCodeSerializer,
+	'repository/BaselineOfWidgets.package' : #SquotCypressCodeSerializer,
+	'repository/WidgetSqueakPlatform.package' : #SquotCypressCodeSerializer,
+	'repository/WidgetTools.package' : #SquotCypressCodeSerializer,
+	'repository/Widgets.package' : #SquotCypressCodeSerializer
 }

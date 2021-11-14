@@ -12,4 +12,5 @@
 		"hasBindingThatBeginsWith:" : "mt 2/12/2014 14:15:54.722",
 		"knownNames" : "mt 8/24/2014 12:13:18.47",
 		"receiverChanged" : "mt 1/31/2013 14:31:37.958",
-		"selectedClass" : "mt 11/1/2012 17:06:08.181" } }
+		"selectedClass" : "mt 11/1/2012 17:06:08.181",
+		"wantsToCloseAutocompletion" : "ct 8/16/2019 00:05" } }
